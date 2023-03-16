@@ -1,0 +1,22 @@
+{
+  "name": "cypressrfa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:withoutBrowser": "cypress run"
+  },
+  "author": "Marielly Frozza",
+  "license": "ISC",
+ 
+  "devDependencies": {
+    "cypress": "^12.7.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.4",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "esbuild": "^0.17.11"
+  }
+}
